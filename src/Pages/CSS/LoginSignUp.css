@@ -1,0 +1,58 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.main-container .sub-container{
+    border: 1px solid black;
+    padding: 50px 40px;
+}
+
+.main-container .sub-container h1{
+    margin-bottom: 30px;
+}
+
+.main-container .sub-container .input-control{
+    margin-bottom: 10px;
+}
+
+
+.main-container .sub-container p{
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.main-container .sub-container .input-control input{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 7px;
+}
+
+.main-container .sub-container button{
+    width: 100%;
+    padding: 10px;
+    background-color: #53ADF3;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-container .sub-container .login-control{
+    display: flex;
+    margin-top: 10px;
+}
+
+.main-container .sub-container .login-control h2{
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.main-container .sub-container .login-control a{
+    margin-left: 5px;
+    margin-top: -1px;
+}
+
+.main-container .sub-container .login-control input{
+    margin-top: -7px;
+}

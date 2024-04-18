@@ -1,0 +1,27 @@
+.item img{
+  width: 100%;
+}
+
+.item h2{
+  margin-top: 10px;
+  font-size: 15px;
+  padding: 10px;
+}
+
+
+.item p{
+  font-size: 13px;
+  padding: 10px;
+}
+
+.item{
+  cursor: pointer;
+  border: 1px solid #B8B8B8;
+  border-radius: 2px;
+}
+
+.item:hover{
+  transform: scale(1.05);
+  transition: ease-in-out 0.2s;
+}
+

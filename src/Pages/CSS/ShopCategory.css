@@ -1,0 +1,30 @@
+.shop-category{
+  padding: 40px 80px;
+}
+
+.shop-category .title{
+  display: flex;
+  margin-bottom: -15px;
+}
+
+.shop-category .title h2{
+  font-size: 17px;
+  margin-right: 9px;
+  font-weight: 600
+}
+
+.shop-category .title p{
+  font-size: 17px;
+  margin-top: -3px;
+}
+
+.shop-category .shop-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 35px;
+  margin-top: 30px;
+}
+
+.shop-category hr{
+  width: 100%;
+}

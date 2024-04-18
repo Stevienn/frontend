@@ -1,0 +1,33 @@
+.subscribe-container{
+  margin-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+
+.subscribe-container .subscribe-main{
+  background: linear-gradient(to bottom, #53ADF3, #E1E9F0);
+  padding: 70px 120px;
+  text-align: center;
+}
+
+.subscribe-container .subscribe-main p{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.subscribe-container .subscribe-main input{
+  padding: 15px 25px;
+  border-radius: 25px;
+  border: none;
+  width: 60%
+}
+
+.subscribe-container .subscribe-main button{
+  background: black;
+  color: white;
+  padding: 15px 35px;
+  border-radius: 35px;
+  border: none;
+  margin-left: -45px;
+}

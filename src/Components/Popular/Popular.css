@@ -1,0 +1,37 @@
+.popular-container{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-bottom: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.popular-container .title{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  gap: 20px;
+}
+
+.popular-container .title .icon{
+  transform: scale(2);
+  margin-bottom: 5px;
+}
+
+.popular-container .title h1{
+    font-weight: 600;
+}
+
+.popular-container hr{
+    width: 100%;
+    margin-bottom: 30px;
+    
+}
+
+.popular-container .popular-item{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 35px;
+
+}
