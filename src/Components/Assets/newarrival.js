@@ -6,35 +6,35 @@ import n5_image from "./VGN-VXE-75.png";
 
 let new_arrival = [
     {
-        id: 1,
+        id: 20,
         name: "ASUS ROG Delta S Core Gaming Headset",
         category: "Headset",
         image: n2_image,
         price: 1245000,
     },
     {
-        id: 2,
+        id: 21,
         name: "NYK Nemesis EKHOS X800 Pro Gaming Headset",
         category: "Headset",
         image: n3_image,
         price: 230000,
     },
     {
-        id: 3,
+        id: 22,
         name: "VGN VXE V1 SIRENE Gaming Headset",
         category: "Headset",
         image: n4_image,
         price: 450000,
     },
     {
-        id: 4,
+        id: 23,
         name: "Pressplay Nova PRO Gaming Mouse",
         category: "Mouse",
         image: n1_image,
         price: 460000,
     },
     {
-        id: 5,
+        id: 24,
         name: "VGN VXE75 Gaming Keyboard",
         category: "Keyboard",
         image: n5_image,

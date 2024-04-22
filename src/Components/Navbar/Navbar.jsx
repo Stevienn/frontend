@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 export const Navbar = () => {
 
   const [menu,setMenu] = useState("home"); //shop is default
-
+  
   return (
     <header className='navbar'>
         <div className='logo'>

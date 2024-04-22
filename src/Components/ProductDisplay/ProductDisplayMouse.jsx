@@ -20,7 +20,15 @@ export const ProductDisplayMouse = (props) => {
     return (
         <main className='product-display'>
             <section className="product-display-left">
-                <img src={product.image} alt="" />
+                <div className="main-img">
+                    <img src={product.image} alt="" />
+                </div>
+                <div className="sub-img">
+                    <img src={product.image} alt="" />
+                    <img src={product.image} alt="" />
+                    <img src={product.image} alt="" />
+                </div>
+                
             </section>
             <section className="product-display-middle">
                 <article className='title'>
@@ -37,29 +45,41 @@ export const ProductDisplayMouse = (props) => {
                 </article>
                 <article className="third-container">
                     <p>DPI : {product.dpi}</p>
+                    <hr />
                     <p>Sensor : {product.sensor}</p>
+                    <hr />
                     <p>Switch : {product.switch}</p>
+                    <hr />
                     <p>Weight : {product.weight}</p>
+                    <hr />
                     <p>Software : {product.software}</p>
+                    <hr />
                     <p>Warranty : {product.warranty}</p>
+                    <hr />
                     <p>Dimension : {product.dimension}</p>
+                    <hr />
                     <p>Connectivity : {product.connectivity}</p>
                 </article>
             </section>
             <section className="product-display-right">
-                <h1>Belanja Sekarang</h1>
-                <hr />
-                <article className='count-container'>
-                    <p>Jumlah</p>
-                    <button onClick={removeButton}>-</button>
-                    {jumlah}
-                    <button onClick={addButton}>+</button>
-                </article> 
-                <article className="total-container">
-                    <p>Total :</p>
-                    <h2>Rp. {total}</h2>
-                </article>
-                <button>ADD TO CART</button>
+                <div className="wrapper">
+                    <h1>Belanja Sekarang</h1>
+                    <hr />
+                    <article className='count-container'>
+                        <p>Jumlah</p>
+                        <div className="counter">
+                            <button onClick={removeButton}>-</button>
+                            {jumlah}
+                            <button onClick={addButton}>+</button>
+                        </div>
+                        
+                    </article> 
+                    <article className="total-container">
+                        <h3>Total :</h3>
+                        <h2>Rp. {total}</h2>
+                    </article>
+                    <button>ADD TO CART</button>
+                </div>    
             </section>
         </main>
   )
